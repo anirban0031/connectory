@@ -11,6 +11,9 @@ html, body, div, span, applet, object, iframe,blockquote, pre, abbr, acronym, ad
 	vertical-align: baseline;
 	font-family: 'Poppins', sans-serif;
 }
+html{
+	overflow: auto !important;
+}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -89,6 +92,8 @@ p{
 }
 .wrappage{
 	width: 100%;
+	background: url("../hero-background-image-02.jpg") no-repeat top center;
+	background-size: 100%;
 }
 .wrappage .header{
 	width: 100%;
@@ -112,15 +117,15 @@ p{
 	color: #FFFFFF;
 	display: inline-block;
 	text-decoration: none;
-	padding: 10px 0px;
+	padding: 6px 0px;
 }
 .header .topnav .numbers a.get-qut {
 	background-color: #17a2b8;
 	border-color: #17a2b8;
-	line-height: 9px;
-	margin-top: 8px;
+	line-height: 5px;
+	margin-top: 4px;
 	margin-left: 18px;
-	font-size: 14px;
+	font-size: 12px;
 	padding: 11px;
 }
 .header .topnav .numbers a svg{
@@ -140,12 +145,15 @@ p{
 	color: #FFFFFF;
 	text-decoration: none;
 }
+.header .topnav .numbers a i{
+	margin-right: 5px;
+}
 .header .topnav .loginreg ul li a:hover{
 	background-color: rgba(255,255,255,.1);
 }
-.header .topnav .loginreg ul li a svg{
+.header .topnav .loginreg ul li a i{
 	margin-right: 5px;
-}
+} 
 .main-content{
 
 }
@@ -200,16 +208,22 @@ p{
 .twosponsor a{
 	
 }
+.side-nav a{
+	display: block;
+}
+.side-nav a i{
+	margin-right: 15px;
+}
 .twosponsor a img{
 	display: block;
 	margin: 30px auto;
 }
 .footer{
-	background: url("../../assets/footer-background-icons.jpg") center center no-repeat;
+	background: url("../footer-background-icons.jpg") center center no-repeat;
 	background-size: 100%;
 	padding: 20px 0px;
 }
-.footer .foot-img{
+.footer .foot-img{ 
 
 }
 .footer .foot-img a{
@@ -372,6 +386,13 @@ p{
 .header .topnav .loginreg ul li ul a svg{
 	font-size: 15px;
 }
+.container {
+	padding: 0px 20px;
+}
+.navbar-item img {
+	max-height: 44px !important;
+	max-height: 2.75rem !important;
+}
 .container h1{
 	margin-bottom: 30px;
 }
@@ -388,7 +409,7 @@ p{
 
 }
 .loginreg .dropdown-menu::after{
-	display:none;
+	display:none; 
 }
 .navbar-burger.burger {
 	position: absolute;
@@ -397,6 +418,24 @@ p{
 }
 .navbar {
 	z-index:10 !important;
+	background: none !important;
+}
+.column.is-half{
+	padding: 0px;
+}
+.columns{
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover {
+	background-color:transparent !important;
+}
+.navbar.is-white .navbar-end .navbar-link.is-active, .navbar.is-white .navbar-end .navbar-link:hover, .navbar.is-white .navbar-end > a.navbar-item.is-active, .navbar.is-white .navbar-end > a.navbar-item:hover, .navbar.is-white .navbar-start .navbar-link.is-active, .navbar.is-white .navbar-start .navbar-link:hover, .navbar.is-white .navbar-start > a.navbar-item.is-active, .navbar.is-white .navbar-start > a.navbar-item:hover {
+	background-color:transparent !important;
+}
+.b-radio.radio {
+	margin-left: 0px !important;
+	padding: 10px 0px 0px 0px !important; 
 }
 @media (max-width: 1200px) {
 	.singleResultW .wrapSDetl {
@@ -483,6 +522,15 @@ p{
 
 
 @media (max-width: 767px) {
+	.header .topnav .loginreg ul li a span{
+		display: none;
+	}
+	.topnav .column.is-half {
+		padding: 0px;
+		width: 50%;
+		overflow: auto;
+		display: inline-block;
+	}
 	.nav.float-right{
 		float: none !important;
 		width: 100%;
