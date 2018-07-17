@@ -456,9 +456,16 @@ p{
 		width: 183px;
 		margin: 0px 12px;
 	}
+	
 }
  
 @media (min-width: 768px){
+	.topnav .column.is-half.number-qut{
+		width: 40%;
+	}
+	.topnav .column.is-half.top-nav-vary{
+		width: 60%;
+	}
 	.dropdown-item {
 		display: block;
 		width: 100%;
@@ -525,15 +532,24 @@ p{
 	.header .topnav .loginreg ul li a span{
 		display: none;
 	}
+	.header .topnav {
+		background: #505050;
+		height: 36px;
+	}
 	.topnav .column.is-half {
 		padding: 0px;
-		width: 50%;
 		overflow: auto;
 		display: inline-block;
 	}
+	.topnav .column.is-half.number-qut{
+		width: 35%;
+	}
+	.topnav .column.is-half.top-nav-vary{
+		width: 65%;
+	}
 	.nav.float-right{
 		float: none !important;
-		width: 100%;
+		width: 100%; 
 	}
 	.nav.float-right .navbar{
 		width: 100%;
@@ -633,6 +649,22 @@ p{
 	}
 }
 @media (max-width: 580px) {
+	.topnav .column.is-half.number-qut {
+		width: 25%;
+		height: 29px;
+	}
+	.topnav .column.is-half.top-nav-vary{
+		width: 75%;
+	}
+	.header .topnav .numbers a.get-qut {
+		background-color: #17a2b8;
+		border-color: #17a2b8;
+		line-height: 2px;
+		margin-top: 0px;
+		margin-left: 0px;
+		font-size: 8px;
+		padding: 10px;
+	}
 	.singleResultW .wrapSDetl {
 		float: left;
 		width: 100%;
