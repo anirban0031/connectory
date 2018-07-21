@@ -2004,7 +2004,7 @@ a.text-uppercase {
     font-weight: 600;
 }
 a.link {
-    color: #ff0000;
+    color:#ff0000 !important;
 }
 a.nav-link i {
     color: inherit;

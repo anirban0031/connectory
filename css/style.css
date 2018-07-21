@@ -201,6 +201,7 @@ p{
 	border-color: #ff0000;
 	width: 100%;
 	font-size: 28px;
+	line-height: 40px;
 }
 .twosponsor{
 
@@ -284,6 +285,12 @@ p{
 .custom-control-label::after{
 	top: 11px;
 }
+.login-wrap a.button{
+	color: #FFFFFF !important;
+}
+.login-wrap i.fas{
+	color: #000000 !important;
+} 
 
 /* resultpage */
 .SearchResult{
@@ -437,6 +444,30 @@ p{
 	margin-left: 0px !important;
 	padding: 10px 0px 0px 0px !important; 
 }
+.container h1{
+	font-size: 36px;
+}
+a {
+	color: #000 !important;
+	transition: .3s color ease, .3s background-color ease, .3s box-shadow ease;
+}
+a:hover {
+	color:#ff0000;
+}
+.main-search-form p a{
+	color:#ff0000;
+}
+.topnav a{
+	color: #FFFFFF !important;
+}
+.button.is-danger{
+	color: #FFFFFF !important;
+}
+.header .topnav .numbers a.get-qut:hover{
+	background-color: #3D3D3D;
+	color: #FFFFFF;
+	transition: .3s color ease, .3s background-color ease, .3s box-shadow ease;
+}
 @media (max-width: 1200px) {
 	.singleResultW .wrapSDetl {
 		float: left;
@@ -456,16 +487,9 @@ p{
 		width: 183px;
 		margin: 0px 12px;
 	}
-	
 }
  
 @media (min-width: 768px){
-	.topnav .column.is-half.number-qut{
-		width: 40%;
-	}
-	.topnav .column.is-half.top-nav-vary{
-		width: 60%;
-	}
 	.dropdown-item {
 		display: block;
 		width: 100%;
@@ -532,24 +556,15 @@ p{
 	.header .topnav .loginreg ul li a span{
 		display: none;
 	}
-	.header .topnav {
-		background: #505050;
-		height: 36px;
-	}
 	.topnav .column.is-half {
 		padding: 0px;
+		width: 50%;
 		overflow: auto;
 		display: inline-block;
 	}
-	.topnav .column.is-half.number-qut{
-		width: 35%;
-	}
-	.topnav .column.is-half.top-nav-vary{
-		width: 65%;
-	}
 	.nav.float-right{
 		float: none !important;
-		width: 100%; 
+		width: 100%;
 	}
 	.nav.float-right .navbar{
 		width: 100%;
@@ -649,22 +664,6 @@ p{
 	}
 }
 @media (max-width: 580px) {
-	.topnav .column.is-half.number-qut {
-		width: 25%;
-		height: 29px;
-	}
-	.topnav .column.is-half.top-nav-vary{
-		width: 75%;
-	}
-	.header .topnav .numbers a.get-qut {
-		background-color: #17a2b8;
-		border-color: #17a2b8;
-		line-height: 2px;
-		margin-top: 0px;
-		margin-left: 0px;
-		font-size: 8px;
-		padding: 10px;
-	}
 	.singleResultW .wrapSDetl {
 		float: left;
 		width: 100%;
