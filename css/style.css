@@ -475,6 +475,12 @@ a:hover {
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
+.select.is-info select, .select.is-info:not(:hover)::after {
+	border-color: #000000 !important;
+}
+.select.is-info select.is-hovered, .select.is-info select:hover {
+	border-color: red !important;
+}
 @media (max-width: 1200px) {
 	.singleResultW .wrapSDetl {
 		float: left;
