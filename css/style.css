@@ -471,6 +471,10 @@ a:hover {
 	color: #FFFFFF;
 	transition: .3s color ease, .3s background-color ease, .3s box-shadow ease;
 }
+.topnav .column{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
 @media (max-width: 1200px) {
 	.singleResultW .wrapSDetl {
 		float: left;
@@ -720,5 +724,24 @@ a:hover {
 	.wrapSearchResult .singleResultW {
 		width: 100%;
 		height: 400px;
+	}
+}
+@media (max-width: 380px){
+	.header .topnav .numbers a.get-qut {
+		background-color: #17a2b8;
+		border-color: #17a2b8;
+		line-height: 1px;
+		margin-top: 6px;
+		margin-left: 0px;
+		font-size: 9px;
+		padding: 11px;
+	}
+	.header .topnav .loginreg ul li a {
+		float: left;
+		display: inline-block;
+		padding: 8px 6px;
+		color: #FFFFFF;
+		text-decoration: none;
+		font-size: 10px;
 	}
 }
