@@ -627,6 +627,9 @@ a:hover {
 		margin-top: 8px;
 		font-size: 13px;
 	}
+	.footer {
+		background: url("../footer-background-icons-mobile.jpg") center center repeat;
+	}
 	.foot-p {
 		text-align: center;
 	}
