@@ -481,6 +481,20 @@ a:hover {
 .select.is-info select.is-hovered, .select.is-info select:hover {
 	border-color: red !important;
 }
+@media all and (max-width: 1280px) and (min-width: 1080px) {
+	.singleResultW .wrapSDetl {
+		float: left;
+		width: 290px;
+		margin: 0px 12px;
+	}
+	.singleResultW .date-view {
+		float: left;
+		position: relative;
+		height: 180px;
+		overflow: auto;
+		width: 85px;
+	}
+}
 @media (max-width: 1200px) {
 	.singleResultW .wrapSDetl {
 		float: left;
@@ -685,6 +699,7 @@ a:hover {
 	}
 }
 @media (max-width: 580px) {
+	
 	.singleResultW .wrapSDetl {
 		float: left;
 		width: 100%;
@@ -719,13 +734,17 @@ a:hover {
 		right: 0px;
 		bottom: 6px;
 		border: .1rem solid #ff0000;
-		padding: 8px 20px;
+		padding: 3px 14px;
 		text-transform: none;
-		font-size: 16px;
+		font-size: 14px;
 		z-index: 2;
 		position: absolute;
 		border-radius: 4px;
 		color: #ff0000;
+	}
+	.wrapSDetl .description {
+		height: 66px;
+		overflow: hidden;
 	}
 	.wrapSearchResult .singleResultW {
 		width: 100%;
