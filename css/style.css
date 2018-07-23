@@ -117,7 +117,8 @@ p{
 	color: #FFFFFF;
 	display: inline-block;
 	text-decoration: none;
-	padding: 6px 0px;
+	padding: 9px 0px;
+	font-size: 13px;
 }
 .header .topnav .numbers a.get-qut {
 	background-color: #17a2b8;
@@ -144,6 +145,7 @@ p{
 	padding: 8px 8px;
 	color: #FFFFFF;
 	text-decoration: none;
+	font-size: 13px;
 }
 .header .topnav .numbers a i{
 	margin-right: 5px;
@@ -389,6 +391,7 @@ p{
 .header .topnav .loginreg ul li ul a,.header .topnav .loginreg ul li ul li{
 	display: block;
 	width: 100%;
+	font-size: 12px;
 }
 .header .topnav .loginreg ul li ul a svg{
 	font-size: 15px;
