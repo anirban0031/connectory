@@ -478,6 +478,13 @@ a:hover {
 		margin: 0px 12px;
 	}
 }
+@media (max-width: 1090px) {
+	.navbar-menu{
+		background-color: transparent !important;
+		box-shadow:none !important;
+	}
+}
+
 @media (max-width: 990px) {
 	.singleResultW .searchImg {
 		float: left;
@@ -552,6 +559,7 @@ a:hover {
 		overflow: visible;
 		display: none;
 	}
+	
 }
 
 
