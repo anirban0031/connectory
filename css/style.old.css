@@ -28,8 +28,12 @@ Headers:		'Varela Round', sans-serif;
 --- A ---
 ********/
 /*------ Additional Information list ------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Varela+Round');
+.page{
+    background: url("../hero-background-image-02.jpg") no-repeat top center;
+}
 .additional-info {
-    padding-left: 1.8rem;
+    padding-left: 1.8rem; 
     padding-right: 1.8rem;
     padding-top: 1.8rem;
 }
@@ -421,7 +425,34 @@ Headers:		'Varela Round', sans-serif;
 ********/
 .hero {
     z-index: 3;
-    background-color: #fff;
+}
+.indexpage .content{
+    margin-top: 80px;
+}
+.indexpage .content .block{
+    padding-top: 5rem;
+}
+.indexpage .content::after {
+	background-image: url("/footer-overlay.png");
+	background-size: contain;
+	background-position: top center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 4.2rem;
+	left: 0;
+	content: "";
+	position: absolute;
+}
+.indexpage .content::before {
+	background-image: url("/hero-overlay.png");
+	background-size: contain;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 4.8rem;
+	top: -45px;
 }
 /*background-image: url("../..../../assets/hero-overlay.png"); background-size: contain; background-position: bottom center; background-repeat: no-repeat; padding-bottom: 4rem; position: relative; background-color:#fff; z-index: 3;*/
 .hero .hero-wrapper {
@@ -2021,7 +2052,7 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     font-weight: 500;
     position: relative;
 }
