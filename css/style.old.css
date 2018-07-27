@@ -35,6 +35,12 @@ Headers:		'Varela Round', sans-serif;
 .dropdown-divider{
     margin: 0px !important;
 }
+.hero .secondary-navigation .dropdown-menu li a {
+	color: #363636;
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+}
 .navbar-expand-md .navbar-nav li a{
     line-height: 12px;
     color: rgba(0, 0, 0, .5);
@@ -672,7 +678,7 @@ Headers:		'Varela Round', sans-serif;
 }
 .hero .secondary-navigation a, .hero .secondary-navigation span {
     color: #fff;
-    padding: .8rem;
+    padding: 9px;
     display: inline-block;
     text-decoration: none;
 }
@@ -2206,7 +2212,8 @@ header, footer {
 	border-color: #ff0000;
 	font-size: 18px;
 	border-radius: 3px;
-	padding: 10px 0px;
+    padding: 10px 0px;
+    width: 100%;
 }
 .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
     color: #fff;
