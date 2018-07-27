@@ -42,7 +42,7 @@ Headers:		'Varela Round', sans-serif;
 	text-align: left;
 }
 .navbar-expand-md .navbar-nav li a{
-    line-height: 12px;
+    line-height: 11px;
     color: rgba(0, 0, 0, .5);
     text-decoration: none;
 }
