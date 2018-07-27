@@ -4,6 +4,11 @@
  * Released under the MIT License.
  */
 
+/*!
+ * Font Awesome Free 5.2.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+
 /**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
  * @version 1.14.3
