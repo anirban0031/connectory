@@ -29,8 +29,26 @@ Headers:		'Varela Round', sans-serif;
 ********/
 /*------ Additional Information list ------*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Varela+Round');
-.page{
-    background: url("../hero-background-image-02.jpg") no-repeat top center;
+.page.home-page > .block{
+    background-color: #f2f2f2;
+    position: inherit;
+}
+.page.home-page > .block #container-content{
+    position: relative;
+}
+.page.home-page {
+    background-color: #f2f2f2;
+}
+.page.home-page > .block > .container > h1{
+    position: absolute;
+    top: -145px;
+}
+.page.home-page .hero .hero-wrapper {
+    padding-bottom: 10rem;
+}
+.page.home-page .hero{
+    z-index: 0;
+    margin-bottom: 55px;
 }
 .dropdown-divider{
     margin: 0px !important;
@@ -439,6 +457,7 @@ Headers:		'Varela Round', sans-serif;
 ********/
 .hero {
     z-index: 3;
+    background-color: #fff;
 }
 .indexpage .content{
     margin-top: 80px;
@@ -765,9 +784,9 @@ Headers:		'Varela Round', sans-serif;
     line-height: 1.1;
 }
 .hero:after {
-    /* background-image: url("../..../../assets/hero-overlay.png"); */
+    background-image: url("/hero-overlay.png");
     background-size: contain;
-    background-position: bottom center;
+    background-position: bottom center; 
     background-repeat: no-repeat;
     position: absolute;
     content: "";
